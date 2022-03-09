@@ -1,0 +1,36 @@
+{
+  "name": "Polyer",
+  "version": "1.0.0",
+  "description": "Process a picture to low poly format.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win --x64"
+  },
+  "build": {
+    "win": {
+      "target": "zip",
+      "icon": "src/favicon.ico"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rangercyh/polyer"
+  },
+  "keywords": [
+    "low",
+    "poly",
+    "trianglate"
+  ],
+  "author": "caiyiheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rangercyh/polyer/issues"
+  },
+  "homepage": "https://github.com/rangercyh/polyer",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "latest",
+    "electron-builder": "latest"
+  }
+}
